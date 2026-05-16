@@ -15,4 +15,6 @@ Thumbs.db
 
 .env
 
-data/
+data/*
+!data/sample_v2/
+!data/sample_v2/*
