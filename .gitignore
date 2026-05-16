@@ -18,3 +18,7 @@ Thumbs.db
 data/*
 !data/sample_v2/
 !data/sample_v2/*
+!data/raw/
+!data/raw/*
+!data/processed_v2/
+!data/processed_v2/*
