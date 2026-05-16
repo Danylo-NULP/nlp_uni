@@ -1,0 +1,20 @@
+{"id": 1, "raw_text": "  A   dog \\n runs. \\t  ", "expected_behavior": "видалення зайвих пробілів, табуляцій та переносів"}
+{"id": 2, "raw_text": "She said: “Hello!”", "expected_behavior": "типографічні лапки нормалізуються до прямих"}
+{"id": 3, "raw_text": "It’s a boy`s dog´s toy.", "expected_behavior": "всі типи неформатних апострофів нормалізуються до '"}
+{"id": 4, "raw_text": "Run—don't walk–quickly.", "expected_behavior": "довге (em) та коротке (en) тире стають дефісом -"}
+{"id": 5, "raw_text": "A <b>dog</b> runs <br> fast.", "expected_behavior": "видалення HTML-артефактів"}
+{"id": 6, "raw_text": "Check http://example.com and www.test.org!", "expected_behavior": "два посилання замінюються на <URL>"}
+{"id": 7, "raw_text": "Send it to admin_123@test.co.uk today.", "expected_behavior": "валідний email замінюється на <EMAIL>"}
+{"id": 8, "raw_text": "Call +1-800-555-1234 or (555) 123-4567.", "expected_behavior": "обидва формати телефонів замінюються на <PHONE>"}
+{"id": 9, "raw_text": "Mr. Smith is happy. He walks.", "expected_behavior": "2 речення, не розбивати після 'Mr.'"}
+{"id": 10, "raw_text": "Dr. House works hard. He is tired.", "expected_behavior": "2 речення, не розбивати після 'Dr.'"}
+{"id": 11, "raw_text": "They live in the U.S. and like it.", "expected_behavior": "1 речення, не розбивати всередині та після 'U.S.'"}
+{"id": 12, "raw_text": "It costs $3.14 or so. It's cheap.", "expected_behavior": "2 речення, не розбивати на десятковому дробі 3.14"}
+{"id": 13, "raw_text": "Contact mr.smith@email.com at www.site.com!", "expected_behavior": "одночасна заміна на <EMAIL> та <URL>"}
+{"id": 14, "raw_text": "Wait... what? I don't know.", "expected_behavior": "правильне розбиття після трикрапки та знаку питання"}
+{"id": 15, "raw_text": "\"Hello there,\" he said. \"How are you?\"", "expected_behavior": "нормалізація лапок і коректне розбиття на 2 речення"}
+{"id": 16, "raw_text": "<br> <p></p>", "expected_behavior": "має стати порожнім рядком після видалення тегів (це ок)"}
+{"id": 17, "raw_text": "123 456 789.", "expected_behavior": "числа не видаляються, залишаються як є"}
+{"id": 18, "raw_text": "Hello  ,  world !", "expected_behavior": "пробіли перед пунктуацією стискаються до одного"}
+{"id": 19, "raw_text": "Dr. A’s site (www.a.com) is live! Call 555-123-4567.", "expected_behavior": "комбо: апостроф + URL + Телефон + 2 речення (без спліту на Dr.)"}
+{"id": 20, "raw_text": "   ", "expected_behavior": "рядок з пробілів стає порожнім"}
