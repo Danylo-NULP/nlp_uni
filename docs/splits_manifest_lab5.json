@@ -1,0 +1,11 @@
+{
+    "seed": 42,
+    "strategy": "stratified",
+    "sizes": {
+        "train": 1200,
+        "val": 150,
+        "test": 150
+    },
+    "generated_at": "2026-05-17T13:26:08.813427",
+    "columns_used": "label (for stratification)"
+}
