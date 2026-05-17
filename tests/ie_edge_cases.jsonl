@@ -1,0 +1,21 @@
+{"id": 1, "raw_text": "A one-way street.", "field_type": "QUANTITY", "expected_behavior": "не витягувати 'one' з дефісом"}
+{"id": 2, "raw_text": "Someone is walking.", "field_type": "QUANTITY", "expected_behavior": "не витягувати 'one' зі слова 'Someone' (працює завдяки \\b)"}
+{"id": 3, "raw_text": "Catch-22 is a great book.", "field_type": "QUANTITY", "expected_behavior": "не вважати 22 кількістю об'єктів на фото"}
+{"id": 4, "raw_text": "He is 100% sure.", "field_type": "QUANTITY", "expected_behavior": "не витягувати відсотки як кількість"}
+{"id": 5, "raw_text": "A group of friends.", "field_type": "QUANTITY", "expected_behavior": "слово 'group' нормалізується до 'many'"}
+{"id": 6, "raw_text": "Player number 3 is running.", "field_type": "QUANTITY", "expected_behavior": "не витягувати номер гравця як кількість"}
+{"id": 7, "raw_text": "He has a black eye.", "field_type": "COLOR", "expected_behavior": "не вважати 'black eye' (синець) кольором одягу"}
+{"id": 8, "raw_text": "Officer of the U.S. Navy.", "field_type": "COLOR", "expected_behavior": "не витягувати 'Navy' як 'blue' (це організація)"}
+{"id": 9, "raw_text": "It happened out of the blue.", "field_type": "COLOR", "expected_behavior": "не витягувати 'blue' з ідіоми"}
+{"id": 10, "raw_text": "The Red Cross tent.", "field_type": "COLOR", "expected_behavior": "не витягувати 'Red' з власної назви"}
+{"id": 11, "raw_text": "Showing his green card.", "field_type": "COLOR", "expected_behavior": "не витягувати 'green', це назва документа"}
+{"id": 12, "raw_text": "A white-collar worker.", "field_type": "COLOR", "expected_behavior": "не витягувати 'white' з ідіоми"}
+{"id": 13, "raw_text": "He got a pink slip.", "field_type": "COLOR", "expected_behavior": "не витягувати 'pink', це фразеологізм (звільнення)"}
+{"id": 14, "raw_text": "A street vendor selling food.", "field_type": "LOCATION", "expected_behavior": "'street' тут прикметник, не витягувати як локацію"}
+{"id": 15, "raw_text": "Playing water polo.", "field_type": "LOCATION", "expected_behavior": "'water' тут назва спорту, а не водойма"}
+{"id": 16, "raw_text": "Walking down Park Avenue.", "field_type": "LOCATION", "expected_behavior": "'Park' — частина власної назви, не локація"}
+{"id": 17, "raw_text": "Buying building materials.", "field_type": "LOCATION", "expected_behavior": "'building' — прикметник (будівельні), а не будівля"}
+{"id": 18, "raw_text": "At sea level.", "field_type": "LOCATION", "expected_behavior": "'sea' — частина терміну, не локація"}
+{"id": 19, "raw_text": "Watching Ocean's Eleven.", "field_type": "LOCATION", "expected_behavior": "'Ocean' — ім'я/назва фільму, не водойма"}
+{"id": 20, "raw_text": "A dog in the park.", "field_type": "LOCATION", "expected_behavior": "нормальне спрацювання, 'park' -> 'park'"}
+{"id": 21, "raw_text": "Two men on the beach.", "field_type": "ALL", "expected_behavior": "має витягнути QUANTITY=2 і LOCATION=beach"}

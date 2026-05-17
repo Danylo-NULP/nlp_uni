@@ -1,0 +1,8 @@
+{
+    "street": "street", "road": "street", "sidewalk": "street", "highway": "street",
+    "beach": "beach", "sand": "beach", "ocean": "water_area", "river": "water_area",
+    "sea": "water_area", "pool": "water_area", "lake": "water_area",
+    "park": "park", "forest": "forest", "woods": "forest", "grass": "field",
+    "field": "field", "room": "indoor", "building": "building", "kitchen": "indoor",
+    "restaurant": "indoor", "store": "indoor", "market": "market"
+}

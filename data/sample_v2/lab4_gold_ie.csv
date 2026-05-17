@@ -1,0 +1,11 @@
+text_id,text,field_type,normalized_value
+1,Two men are walking.,QUANTITY,2
+2,A group of people sitting.,QUANTITY,many
+3,3 dogs playing.,QUANTITY,3
+4,Five birds in the sky.,QUANTITY,5
+5,Man in a red shirt.,COLOR,red
+6,A black dog running.,COLOR,black
+7,Woman with a navy jacket.,COLOR,blue
+8,Kids playing on the street.,LOCATION,street
+9,A family at the beach.,LOCATION,beach
+10,Swimming in the ocean.,LOCATION,water_area
